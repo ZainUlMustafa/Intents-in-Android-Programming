@@ -24,7 +24,9 @@ public class MainActivity extends AppCompatActivity {
     public void initialize(){
         msg = (EditText)findViewById(R.id.zainsMainEdit);
         mainBTN = (Button)findViewById(R.id.buttonMain);
-
+        
+        //Button on click listener method
+        
         mainBTN.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
