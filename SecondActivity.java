@@ -26,3 +26,5 @@ public class SecondActivity extends AppCompatActivity {
         secText.setText(secMessage);
     }
 }
+
+//END
